@@ -1,0 +1,83 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* header */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #3498db; /* Bleu */
+  color: #fff; /* Texte blanc */
+  padding: 20px 0; /* Ajoute de l'espace autour du texte */
+}
+
+.player-stats {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+/* ... (les styles pour le tableau restent les mêmes) */
+
+/*  */
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.player-stats {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+
+
+.player-stats th,
+.player-stats td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.player-stats th {
+  background-color: grey;
+}
+
+.player-stats tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.player-stats tbody tr:hover {
+  background-color: #e1e1e1;
+}
+
+/* Style pour les en-têtes de colonnes spécifiques */
+.player-stats th:nth-child(1),
+.player-stats td:nth-child(1) {
+  width: 10%;
+}
+
+/* Ajoutez plus de styles selon vos préférences */
